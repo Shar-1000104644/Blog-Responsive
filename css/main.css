@@ -68,14 +68,15 @@ section .tres .largo img {
 
 section .tres .search {
   background: #1C1821;
-  height: 70px; }
+  height: 70px;
+  padding: 8px; }
 
 section .tres .search input {
   background: #2D2735;
   border: none;
   border-radius: 5%;
-  padding: 3%;
-  margin: 4% auto;
+  padding: 10px;
+  margin: 5px 0;
   color: #fff; }
 
 section .tres .me {
@@ -94,5 +95,12 @@ section .tres .me i {
 footer {
   background: #1C1821;
   padding: 2%; }
+
+@media (max-width: 400px) {
+  .container {
+    padding: 3%; }
+
+  section .uno p {
+    font-size: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
