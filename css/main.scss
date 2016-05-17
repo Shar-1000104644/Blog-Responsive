@@ -30,22 +30,36 @@ header{
 }
 header .logo{
 	height:3%;
-
 	width: 100%;
 }
+/*MENU COMPUTADORA*/
 header .menu{
+	list-style: none;
 	margin-top: 5%;
-
+}
+header .menu li{
+	float: right;
 }
 header .menu a{
-	padding-left: 5%;
+	padding-left: 40%;
 	text-decoration: none;
+	display: inline-block;
 }
 header .menu a:hover{
 	color: $naranja;
 }
 
-
+/*MENU CELULAR*/
+header .menu2 li{
+	display: block;
+}
+header .menu2 a{
+	padding-left: 5%;
+	text-decoration: none;
+}
+header .menu2 a:hover{
+	color: $naranja;
+}
 section{
 	background:$lila;
 }
@@ -55,7 +69,6 @@ section .uno{
 	background-position:center;
 	height: 300px;
 }
-
 section .uno div{
 	background: $morado;
 	width: 60%;
@@ -113,7 +126,5 @@ footer{
 	section .uno p{
 		font-size: 10px;
 	}
-	section .tres .girl{
-		overflow: 
-	}
+
 }
