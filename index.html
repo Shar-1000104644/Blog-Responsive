@@ -9,6 +9,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="css/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -16,11 +18,26 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<img class="logo img-responsive" src="image/header-logo.png">
+				<div class="col-md-3">
+					<img class="logo" src="image/header-logo.png">
 				</div>
-				<div class="col-md-8 ">
-					<ul class="menu">
+
+				<div class="drop col-md-1 visible-xs inline-block text-right">	
+					<div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle fa fa-bars " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">   
+					  </button>
+					  <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
+					    <li><a href="#">FEATURES</a></li>
+						<li><a href="#">NEWS</a></li>
+						<li><a href="#">FASHION</a></li>
+						<li><a href="#">FLOWERS</a></li>
+						<li><a href="#">LIFESTYLE</a></li>
+					  </ul>
+					</div>
+				</div>
+
+				<div class="col-md-8 hidden-xs pull-right">
+					<ul class="menu ">
 						<li><a href="#">FEATURES</a></li>
 						<li><a href="#">NEWS</a></li>
 						<li><a href="#">FASHION</a></li>
@@ -28,6 +45,7 @@
 						<li><a href="#">LIFESTYLE</a></li>
 					</ul>
 				</div>
+				
 			</div>
 		</div>
 	</header>
@@ -40,7 +58,7 @@
 				</div>
 			</div>
 			<div class="row dos">
-			  <div class="col-md-4">
+			  <div class="imgs col-md-4">
 			    <div class="thumbnail">
 			      <img src="image/image7.jpg">
 			      <div class="caption">
@@ -50,7 +68,7 @@
 			      </div>
 			    </div>
 			  </div>
-			  <div class="col-md-4">
+			  <div class="imgs col-md-4">
 			    <div class="thumbnail">
 			      <img src="image/image3.jpg">
 			      <div class="caption">
@@ -60,7 +78,7 @@
 			      </div>
 			    </div>
 			  </div>
-			  <div class="col-md-4">
+			  <div class="imgs x col-md-4">
 			    <div class="thumbnail">
 			      <img src="image/image2.jpg">
 			      <div class="caption">
@@ -72,7 +90,7 @@
 			  </div>
 			</div>
 			<div class="row tres">
-				<div class="col-md-8">
+				<div class="trio col-md-8">
 					<div class="largo">
 						<img src="image/image4.jpg">
 						<div class="texto">
@@ -81,7 +99,7 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat.</p>
 						</div>
-						<iframe src="https://player.vimeo.com/video/56810854" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="https://player.vimeo.com/video/56810854" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen></iframe>
 						<div class="texto">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -89,7 +107,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 hidden-xs">
+				<div class="trio col-md-4 hidden-xs">
 					<div class="search">
 						<input type="search" placeholder="Search">
 					</div>
@@ -113,7 +131,5 @@
 		<p>Copyright, All Right Reserved</p>
 	</footer>
 	<!--SCRIPS-->
-	<script type="text/javascript" src="css/jquery-1.12.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

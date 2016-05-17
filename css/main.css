@@ -12,11 +12,18 @@ a, p, i {
   font-style: italic;
   text-decoration: none; }
 
+.fa {
+  color: #fff;
+  font-size: 15px; }
+
 .container {
   padding: 0 15%; }
 
 .uno, .dos, .tres {
   margin: 5% 0; }
+
+.trio {
+  padding: 0 0.5%; }
 
 .texto {
   padding: 0 3%; }
@@ -28,31 +35,35 @@ header .logo {
   height: 3%;
   width: 100%; }
 
+header .dropdown {
+  color: #fff; }
+
+header .dropdown button {
+  background: #1C1821;
+  border: none; }
+
+header .drop .dropdown-menu {
+  background: #2D2735;
+  color: #fff; }
+
+header .drop .dropdown-menu li a {
+  color: #fff; }
+
 /*MENU COMPUTADORA*/
 header .menu {
   list-style: none;
-  margin-top: 5%; }
+  margin-top: 3%;
+  text-align: right; }
 
 header .menu li {
   float: right; }
 
 header .menu a {
-  padding-left: 40%;
+  padding-left: 30%;
   text-decoration: none;
   display: inline-block; }
 
 header .menu a:hover {
-  color: #FAB672; }
-
-/*MENU CELULAR*/
-header .menu2 li {
-  display: block; }
-
-header .menu2 a {
-  padding-left: 5%;
-  text-decoration: none; }
-
-header .menu2 a:hover {
   color: #FAB672; }
 
 section {
@@ -69,6 +80,9 @@ section .uno div {
   width: 60%;
   margin: 10% 20%;
   padding: 5%; }
+
+section .dos .imgs {
+  padding: 0 0.5%; }
 
 section .dos .thumbnail {
   padding: 0;
@@ -116,6 +130,13 @@ footer {
 @media (max-width: 400px) {
   .container {
     padding: 3%; }
+
+  header .logo {
+    width: 50%;
+    float: left; }
+
+  header .drop {
+    margin: 3% 0%; }
 
   section .uno p {
     font-size: 10px; } }
